@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Learnt 1</string>
+    <string name="title">brian learns</string>
+    <string name="submit">Submit</string>
+    <string name="greet_me">greet me</string>
+    <string name="Offer">offer</string>
+</resources>
