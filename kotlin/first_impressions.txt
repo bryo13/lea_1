@@ -1,0 +1,32 @@
+kotlin is a superset of java and as such, an OOP language but can also be functional.
+Therefore, classes, objects and other OOP stuff come into play.
+
+Differences with Golang.
+-> To compile my Kotlin code, I call the Kotlin compiler on the kotlin file
+	 # kotlinc filename.kt -include-runtime -d filename.jar
+	 # java -jar filename.jar
+	 while in Go call the go compile, 
+	 # go run  filename.go or go build filename.go
+
+-> Go has a lean keyword list,25 unlike Kotlin.
+	Variables are assigned in two ways in Go, var name string = "Brian" or name := "Brian"
+	Kotlin has two keywords for variables, var and val where val is immutable and var is mutable
+
+-> We group code in modules and packages in Go, Kotlin has classes (to explore more)
+	Both code is executed from main function 
+	its bold for Kotlin to use fun keyword to denote functions, while in Go we use the func keyword 
+
+-> Variables in Kotlin hold references to the value and not the actual value, they include:
+	Int(Byte,Short,Long),Float(Double),String(with double quotes * Similar  to Go *) 
+	and Char(with single quotes * runes in Go?*)
+Difference with Go is the variables are lowercase i.e int, var a int = 0 while in Kotlin var a: Int = 0
+
+-> To implement arrays the arrayOf() function is used and size to find the size.
+	while in Go we can create an array by specifing the length, else we create a 
+	slice. var myArray [5]int
+	
+	We can specify the type the array would hold. var myArray: Array<Int> = arrayOf(12,12,3) 
+
+
+
+## surprised I like Kotlin.
